@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-
-
 import math
 import numpy as np
 from numpy import linalg as la
@@ -23,7 +21,6 @@ class AILE:
         self.Y_clamp = self.Y
         self.T = self.cal_tran_mat(y_data)  # n*n
         return
-
 
     def cal_tran_mat(self, data):
         # 计算转换矩阵, 即构建图
@@ -136,9 +133,8 @@ if __name__ == '__main__':
     # datesetName.append("Yeast_alpha")
     # datesetName.append("Movie")
 
-
     # alphaValue.append(0.5)
-    # alphaValue.append(0.5)
+    alphaValue.append(0.5)
     # alphaValue.append(0.5)
     # alphaValue.append(0.7)
     # alphaValue.append(0.9)
